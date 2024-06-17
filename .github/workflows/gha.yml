@@ -1,12 +1,12 @@
 on: [push]
 
 jobs:
-  H2HC:
+  RAFAELDP29:
      runs-on: ubuntu-latest
-     name: H2HC2022
+     name: RAFAELDP29
      steps:
        - run: 
               id
               uname -a
               env
-              echo "Hello H2HC 2022!"
+              echo ${{ secrets.SEGREDO }}
